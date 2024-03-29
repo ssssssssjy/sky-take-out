@@ -17,4 +17,6 @@ public interface EmployeeService {
     void insert(EmployeeDTO employeeDTO);
 
     PageResult pageQurey(EmployeePageQueryDTO employeePageQueryDTO);
+
+    void startOrStop(Integer status, Long id);
 }
